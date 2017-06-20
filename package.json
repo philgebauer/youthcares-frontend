@@ -1,0 +1,24 @@
+{
+  "name": "youthcare-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/phil.gebauer/youthcare-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/phil.gebauer/youthcare-frontend/issues"
+  },
+  "homepage": "https://gitlab.com/phil.gebauer/youthcare-frontend#README",
+  "dependencies": {
+    "express": "^4.15.0",
+    "body-parser": "^1.16.1"
+  }
+}
