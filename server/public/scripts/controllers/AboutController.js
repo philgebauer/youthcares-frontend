@@ -5,4 +5,5 @@ angular
       //DATA-BINDING VARIABLES
         var vm = this; //controller as reference
 
+        vm.hello = YouthService.hello;
     }]);
