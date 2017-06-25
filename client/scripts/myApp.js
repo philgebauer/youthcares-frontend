@@ -7,6 +7,11 @@ angular
 function config($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
+    .when('/home', {
+      templateUrl: '/views/templates/home.html',
+      controller: 'HomeController',
+      controllerAs: 'vm',
+    })
     .when('/about', {
       templateUrl: '/views/templates/about.html',
       controller: 'AboutController',
@@ -30,11 +35,6 @@ function config($locationProvider, $routeProvider) {
     .when('/history', {
       templateUrl: '/views/templates/history.html',
       controller: 'HistoryController',
-      controllerAs: 'vm',
-    })
-    .when('/home', {
-      templateUrl: '/views/templates/home.html',
-      controller: 'HomeController',
       controllerAs: 'vm',
     })
     .when('/programs', {
