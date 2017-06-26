@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app = "myApp">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YouthCare</title>
+      <!-- Our Stylesheet -->
+      <link rel="stylesheet" href="../css/style.css"/>
+
+      <!-- Bootstrap CSS / JS-->
+      <link rel="stylesheet" href="../vendors/bootstrap/dist/css/bootstrap.min.css">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+      <!-- AngularJS -->
+      <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script> -->
+      <script type="text/javascript" src="../vendors/angular.min.js"></script>
+      <script type="text/javascript" src="../vendors/angular-route.min.js"></script>
+
+      <!-- Controlllers & Factories -->
+      <script type="text/javascript" src="../scripts/myApp.js"></script>
+
+      <script type="text/javascript" src="../scripts/controllers/AboutController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/CampSunriseController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/ContactUSController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/EventsController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/HistoryController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/HomeController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/ProgramsController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/VolunteerController.js"></script>
+      <script type="text/javascript" src="../scripts/controllers/YouthLeadProgramController.js"></script>
+
+      <script type="text/javascript" src="../scripts/factories/YouthService.js"></script>
+
+  </head>
+  <body>
+    <header ng-include = "'/views/partials/header.html'"
+            class = "container-fluid">
+    </header>
+
+    <main ng-view class = "container-fluid"></main>
+
+    <footer ng-include = "'/views/partials/footer.html'"
+            class = "container-fluid">
+    </footer>
+
+  </body>
+</html>
