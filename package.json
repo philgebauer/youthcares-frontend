@@ -4,21 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/phil.gebauer/youthcare-frontend.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Prime Revolution",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/phil.gebauer/youthcare-frontend/issues"
-  },
-  "homepage": "https://gitlab.com/phil.gebauer/youthcare-frontend#README",
   "dependencies": {
-    "express": "^4.15.0",
-    "body-parser": "^1.16.1"
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "body-parser": "^1.16.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.0"
   }
 }
